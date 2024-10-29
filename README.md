@@ -12,7 +12,9 @@ Data Characteristics: Includes features such as protocol type, service, flag, an
 
 # Objectives
 Develop a Classifier: Create a model that accurately distinguishes between legitimate and malicious connections.
+
 Feature Engineering: Apply feature extraction and selection techniques to optimize the dataset and improve classification accuracy.
+
 Algorithm Comparison: Evaluated multiple machine learning algorithms to identify the most effective model for intrusion detection.
 
 # 🛠️ Implementation
@@ -25,6 +27,7 @@ Model Training and Testing:
 Trained various machine learning algorithms, including Decision Trees, Random Forest, SVM, and Neural Networks.
 Split the data into training and testing sets for validation and comparison.
 Optimized hyperparameters to improve accuracy, precision, and recall.
+
 Performance Metrics:
 
 Evaluated models based on key metrics: accuracy, precision, recall, F1-score, and time efficiency.
