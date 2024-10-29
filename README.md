@@ -3,9 +3,6 @@ Leveraged machine learning techniques to develop a robust Intrusion Detection Sy
 # Dataset used
 https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
 
-# Project Overview
-An Intrusion Detection System (IDS) is essential for protecting networks against unauthorized access and malicious attacks. This project involves building a machine learning-based IDS capable of detecting and classifying network connections as either normal (good) or malicious (bad). Using the KDD Cup 1999 dataset, I applied feature extraction techniques and multiple machine learning algorithms to build an optimized, predictive model.
-
 #  Dataset
 KDD Cup 1999 (DARPA): A benchmark dataset for IDS projects, containing a variety of network connections labeled as either normal or attack.
 Data Characteristics: Includes features such as protocol type, service, flag, and traffic statistics, which are used for identifying anomalies and attack patterns.
@@ -21,7 +18,9 @@ Algorithm Comparison: Evaluated multiple machine learning algorithms to identify
 Data Preprocessing:
 
 Handled missing values, normalized data, and applied necessary data transformations.
+
 Feature Selection: Used techniques like correlation analysis, PCA, or mutual information to identify the most impactful features.
+
 Model Training and Testing:
 
 Trained various machine learning algorithms, including Decision Trees, Random Forest, SVM, and Neural Networks.
@@ -35,7 +34,9 @@ Selected the best-performing model for final deployment.
 
 # ⚙️ Technologies Used
 Programming Language: Python
-Libraries: Scikit-Learn, Pandas, Numpy, Matplotlib, Seaborn
+
+Libraries: Scikit-Learn, Pandas, Numpy, Matplotlib
+
 Platform: google colab (for prototyping and testing)
 
 # 📈 Results
